@@ -46,6 +46,11 @@
 
     <h2>Send Us a Message</h2>
     <form id="contact-form" class="contact-form">
+      <!-- Web3Forms access key — get a free key at https://web3forms.com (use fellows@science-corps.org) and paste it below. Until then the form will not deliver messages. -->
+      <input type="hidden" name="access_key" value="REPLACE_WITH_WEB3FORMS_ACCESS_KEY">
+      <input type="hidden" name="from_name" value="Science Corps Website — Contact Form">
+      <!-- Honeypot spam trap: bots fill this hidden field, humans don't -->
+      <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
       <div class="form-group">
         <label for="cf-name">Name</label>
         <input type="text" id="cf-name" name="name" required placeholder="Your name">
