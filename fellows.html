@@ -18,7 +18,7 @@
     <ul class="nav-menu">
       <li><a href="index.html">Home</a></li>
       <li class="dropdown"><a href="about-us.html">About Us ▾</a><ul class="dropdown-menu"><li><a href="about-us.html#host1">Host Sites</a></li><li><a href="about-us.html#team1">Our Team</a></li><li><a href="about-us.html#partner1">Partners</a></li><li><a href="about-us.html#faq">FAQs</a></li></ul></li>
-      <li class="dropdown active"><a href="fellows.html">Fellows ▾</a><ul class="dropdown-menu"><li><a href="#currentfellows">Current Fellows</a></li><li><a href="#formerfellows1">Former Fellows</a></li></ul></li>
+      <li class="dropdown active"><a href="fellows.html">Fellows ▾</a><ul class="dropdown-menu"><li><a href="#upcomingfellows">Upcoming Fellows</a></li><li><a href="#formerfellows1">Former Fellows</a></li></ul></li>
       <li><a href="blog.html">Blog</a></li>
       <li><a href="apply.html">Apply</a></li>
       <li><a href="donate.html" class="nav-cta">Donate</a></li>
@@ -53,10 +53,36 @@
   </div>
 </section>
 
-<!-- Current Fellows -->
-<section class="section bg-light" id="currentfellows">
+<!-- Current Fellows (hidden — no active fellows this cycle) -->
+<section class="section bg-light" id="currentfellows" style="display:none">
   <div class="container">
     <h2 class="section-title">Current Fellows</h2>
+  </div>
+</section>
+
+<!-- Upcoming Fellows -->
+<section class="section bg-light" id="upcomingfellows">
+  <div class="container">
+    <h2 class="section-title">Upcoming Fellows</h2>
+    <div class="fellows-grid">
+
+      <div class="fellow-card">
+        <img src="images/fellow-matthew-reinhold.jpg" alt="Matthew Reinhold" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Matthew Reinhold</h3>
+          <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; Sept 2026 – March 2027</p>
+          <p>Matt earned his PhD in Planetary Science at Stanford University, where his research focused on simulating the interactions between the interiors and atmospheres of hypothetical rocky planets. His work explored how planetary climates and habitability evolve over the lifetimes of these planets. Passionate about science communication and education, Matt dedicated much of his graduate career to science outreach at local elementary, middle, and high schools, teaching advanced topics in astrophysics, geology, planetary science, and astrobiology. Outside of science, Matt is an avid outdoorsman with a passion for mountaineering, hiking, caving, and exploring the world.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Former Fellows -->
+<section class="section" id="formerfellows1">
+  <div class="container">
+    <h2 class="section-title">Former Fellows</h2>
     <div class="fellows-grid">
 
       <div class="fellow-card">
@@ -74,27 +100,17 @@
         <div class="fellow-card__body">
           <h3>An Tran</h3>
           <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; Jan – June 2026</p>
-          <p>An earned her PhD in Plant Sciences from the University of Cambridge, where she investigated how microalgae can be produced on a large scale for high-value bioproducts. Her curiosity about the microbial world inspired her postdoctoral research at the Massachusetts Institute of Technology, where she studies marine microbes associated with particles and their roles in global biogeochemical cycles. An is passionate about science communication and making scientific knowledge accessible to all. When she's not in the lab, you'll likely find her outdoors, hiking, climbing, or sailing.</p>
+          <p>An earned her PhD in Plant Sciences from the University of Cambridge, where she investigated how microalgae can be produced on a large scale for high-value bioproducts. Her curiosity about the microbial world inspired her postdoctoral research at the Massachusetts Institute of Technology, where she studies marine microbes associated with particles and their roles in global biogeochemical cycles. An is passionate about science communication and making scientific knowledge accessible to all. When she's not in the lab, you'll likely find her outdoors, hiking, climbing, or sailing, and always in search for her next adventure.</p>
           <a href="blog/an-tran-months1-2.html" class="card__link">Read her updates →</a>
         </div>
       </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- Former Fellows -->
-<section class="section" id="formerfellows1">
-  <div class="container">
-    <h2 class="section-title">Former Fellows</h2>
-    <div class="fellows-grid">
 
       <div class="fellow-card">
         <img src="images/fellow-danae-woodard.jpg" alt="DaNae Woodard" onerror="this.style.display='none'">
         <div class="fellow-card__body">
           <h3>DaNae Woodard</h3>
           <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; June – Dec 2025</p>
-          <p>DaNae received her PhD in biological chemistry from the University of Texas Southwestern Medical Center, where her research focused on uncovering the molecular mechanisms underlying retinal degenerative diseases. She continued as an IRACDA postdoctoral fellow at UC San Diego. Beyond the lab, DaNae is passionate about teaching and mentoring students, and loves to blend art and science — including crocheting cell models! — to inspire students to pursue STEM opportunities.</p>
+          <p>DaNae received her PhD in biological chemistry from the University of Texas Southwestern Medical Center in Dallas, TX, where her research focused on uncovering the molecular mechanisms that underlie retinal degenerative diseases. Driven by her fascination for vision research, she continued her journey as an IRACDA postdoctoral fellow at the University of California, San Diego. Beyond the lab, DaNae is passionate about teaching and mentoring students. She also enjoys crocheting and loves to blend art and science to inspire students to pursue STEM opportunities.</p>
           <a href="blog/danae-woodard-month1.html" class="card__link">Read her updates →</a>
         </div>
       </div>
@@ -104,7 +120,7 @@
         <div class="fellow-card__body">
           <h3>Markus Holzner</h3>
           <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; Aug – Dec 2024</p>
-          <p>Markus is a pharmacist by training and holds a PhD in genetics from ETH Zürich, where his work focused on early mouse embryonic development. He is passionate about teaching and eager to introduce innovative study concepts into the curriculum. Markus actively supported CVIF's research group in testing the genetic diversity of local marine life. In his free time, he enjoys playing the piano, running on trails, and working his way through a never-ending reading list.</p>
+          <p>Markus is a pharmacist by training and holds a PhD in genetics from ETH Zürich, where his work focused on early mouse embryonic development. He is passionate about teaching and is eager to introduce innovative study concepts into the current curriculum. Markus also aims to offer a new intensive college-prep course and actively supports CVIF's research group in testing the genetic diversity of local marine life. In his free time, Markus enjoys playing the piano, running on trails, and working his way through a never-ending reading list.</p>
         </div>
       </div>
 
@@ -113,7 +129,7 @@
         <div class="fellow-card__body">
           <h3>Bianca Baldassarri</h3>
           <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; Jan – May 2024</p>
-          <p>Bianca obtained her PhD in applied physics at Northwestern University, where she focused on employing computational methods for the discovery and characterization of new materials for renewable energy applications. Before that, she had a wonderful time during her MSci degree in physics at University College London (UCL). She is passionate about sustainable development and community building.</p>
+          <p>Bianca obtained her PhD in applied physics at Northwestern University, where she focused on employing computational methods for the discovery and characterization of new materials for renewable energy applications. Before that, she had a wonderful time during her MSci degree in physics at University College London (UCL). She is passionate about sustainable development and community building, and highly values the enrichment that comes from sharing different approaches to teaching, learning and research across different cultural and academic contexts.</p>
           <a href="blog/bianca-baldassarri-fellow-update.html" class="card__link">Read her update →</a>
         </div>
       </div>
@@ -131,34 +147,72 @@
         <img src="images/fellow-kris-sales.png" alt="Kris Sales" onerror="this.style.display='none'">
         <div class="fellow-card__body">
           <h3>Kris Sales</h3>
-          <p class="fellow-meta">AST &nbsp;·&nbsp; Morocco &nbsp;·&nbsp; Aug – Dec 2023</p>
-          <p>Kris received his PhD in evolution and ecology from the University of East Anglia (UEA), UK, in 2021. He studied the link between fertility in insects and climate change. Since receiving his degree, he worked at UEA, the Norwegian Polar Institute, and UK federal government agencies. His work mostly focused on improving climate change adaptation, human health, and biodiversity. Kris has a passion for science and providing equal opportunities in STEM education.</p>
+          <p class="fellow-meta">RAS &nbsp;·&nbsp; Morocco &nbsp;·&nbsp; Aug – Dec 2023</p>
+          <p>Kris received his PhD in evolution and ecology from the University of East Anglia (UEA), UK, in 2021. He studied the link between fertility in insects and climate change. Since receiving his degree, he has worked in academic institutions (UEA and the Norwegian Polar Institute) and in UK federal government agencies (Forestry Commission and the Office for National Statistics). This work mostly focused on improving climate change adaptation, human health, and biodiversity. In addition to his research, Kris has taught and developed a diverse range of educational activities around ecology, evolution, and behavior. Kris has a passion for science and providing equal opportunities for school STEM education.</p>
         </div>
       </div>
 
       <div class="fellow-card">
-        <img src="images/fellow-danae-woodard.jpg" alt="Swastika Issar" style="display:none" onerror="this.style.display='none'">
+        <img src="images/fellow-matt-solt.jpg" alt="Matt Solt" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Matt Solt</h3>
+          <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; Sep – Dec 2020 &amp; July 2023</p>
+          <p>Matt is currently a postdoc at the University of Virginia in affiliation with three Department of Energy laboratories. He received his Ph.D. in physics from Stanford University and specializes in experimental particle astrophysics. Matt also obtained a dual degree in physics and mechanical engineering from Oakland University. Outside of the laboratory, Matt is passionate about spreading scientific literacy and believes that providing proper STEM education and resources can help improve the lives of people in developing countries.</p>
+        </div>
+      </div>
+
+      <div class="fellow-card">
+        <img src="images/fellow-swastika-issar.jpg" alt="Swastika Issar" onerror="this.style.display='none'">
         <div class="fellow-card__body">
           <h3>Swastika Issar</h3>
           <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; Sep 2022 – Apr 2023</p>
-          <p>Swastika is an evolutionary biologist from New Delhi, India. Her research is focused on how natural selection shapes interactions within social groups, species, and ecological communities. She recently finished her PhD at the University of Cambridge on a Dr. Manmohan Singh Scholarship from St. John's College. Swastika also led Science Corps' Filipinas in STEM interview series, documenting the stories of Filipino women scientists for a global audience.</p>
+          <p>Swastika is an evolutionary biologist from New Delhi, India. Her research is focused on how natural selection shapes interactions within social groups, species, and ecological communities. She recently finished her PhD at the University of Cambridge on a Dr. Manmohan Singh Scholarship from St. John's College. Swastika's work at the Max Planck Institute of Animal Behavior on the ecological and life-history correlates of social behavior in cichlid fish of the Great African Lakes has been funded by the Centre for the Advanced Study of Collective Behaviour in Konstanz. She is a guest lecturer in Global Change to undergraduate students in Environmental Engineering and Resource Management at the University of Applied Sciences (HTWG), Konstanz. Along with her extensive experience in community-based teaching and mentoring in India and the United Kingdom, she is deeply passionate about making science education open and inclusive.</p>
         </div>
       </div>
 
       <div class="fellow-card">
+        <img src="images/fellow-tanvi-chheda.jpg" alt="Tanvi Chheda" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Tanvi Chheda</h3>
+          <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; Jan – June 2021</p>
+          <p>Tanvi is currently a Data Scientist at Meta. She finished her PhD in Geology, with a PhD minor in Management Science and Engineering at Stanford University. She has a Bachelors in Mathematical Geoscience from Cornell University, and is grateful for values like cultural empathy that she imbibed during scientific expeditions in countries across the spectrum of the Human Development Index. Tanvi hopes to apply her technical skills in the environment or social realm full-time, starting with building STEM capacity in underserved communities through Science Corps.</p>
+        </div>
+      </div>
+
+      <div class="fellow-card">
+        <img src="images/fellow-chrissy-crute.jpg" alt="Chrissy Crute" onerror="this.style.display='none'">
         <div class="fellow-card__body">
           <h3>Chrissy Crute</h3>
           <p class="fellow-meta">AST &nbsp;·&nbsp; Morocco &nbsp;·&nbsp; Aug 2022 – Jan 2023</p>
-          <p>Chrissy earned her Ph.D. in Environmental Health and Toxicology from Duke University in 2022. Her thesis research focused on understanding how environmental contaminants during pregnancy impact the health of mothers and their babies. She earned doctoral certificates in both Global Health and College Teaching, and completed a Morehead Science &amp; Planetarium IMPACTS Fellowship. Chrissy is passionate about science education and outreach, especially in underserved communities.</p>
+          <p>Chrissy earned her Ph.D. in Environmental Health and Toxicology from Duke University in 2022. Her thesis research focused on understanding how environmental contaminants during pregnancy impact the health of mothers and their babies. While at Duke, Chrissy earned doctoral certificates in both Global Health and College Teaching. She completed a Morehead Science &amp; Planetarium IMPACTS Fellowship, in which she was trained in science education and outreach and designed and implemented outreach activities at underfunded schools in North Carolina. She also led a Bass Connections team through field and lab work in China and taught the subsequent course on electronic-waste recycling for Duke undergrads. Chrissy is passionate about science education and outreach, especially in underserved communities.</p>
         </div>
       </div>
 
       <div class="fellow-card">
-        <img src="images/fellow-victor-sojo.png" alt="Victor Sojo" onerror="this.style.display='none'">
+        <img src="images/fellow-betsy-melenbrink.jpg" alt="Betsy Melenbrink" onerror="this.style.display='none'">
         <div class="fellow-card__body">
-          <h3>Victor Sojo</h3>
-          <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &amp; Aavishkaar &nbsp;·&nbsp; India &nbsp;·&nbsp; Jul – Dec 2018</p>
-          <p>Victor is now a Scholar in bioinformatics and computational biology at the American Museum of Natural History in New York. He did his PhD in Evolutionary Biology at University College London (UCL). Before joining Science Corps as an Education-Advancement Special Fellow, Victor did postdoctoral research at RIKEN in Tokyo and at the University of Munich. He is passionate about the power of education to build a more equal and inclusive world.</p>
+          <h3>Betsy Melenbrink</h3>
+          <p class="fellow-meta">Aavishkaar &nbsp;·&nbsp; India &nbsp;·&nbsp; Jul – Oct 2019</p>
+          <p>Betsy is currently an AAAS Science &amp; Technology Policy Fellow at the US State Department in the office of Science and Technology Cooperation. She holds a Ph.D. in Chemistry from the University of Southern California where she designed and made semiconducting plastics for use in flexible electronics. Prior to her graduate studies, she worked as an Oak Ridge Institute of Science and Education Fellow at the Environmental Protection Agency and earned her B.S. in Polymer Chemistry from the University of North Carolina at Chapel Hill. Betsy is passionate about energy, the environment, and building scientific capacity in developing countries.</p>
+        </div>
+      </div>
+
+      <div class="fellow-card">
+        <img src="images/fellow-gabriela-fernandez-cuervo.jpg" alt="Gabriela Fernández-Cuervo" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Gabriela Fernández-Cuervo</h3>
+          <p class="fellow-meta">Aavishkaar &nbsp;·&nbsp; India &nbsp;·&nbsp; Jan – Mar 2020</p>
+          <p>Gabriela is now an Intellectual Property Specialist at Advanced Clinical Pharmaceuticals. She majored in chemistry as an undergraduate at the University of Puerto Rico. As a HHMI Gilliam Fellow, she obtained her PhD at the University of Arizona before moving to California to continue her career as a postdoctoral research fellow at Stanford University. As a scientist, Gabriela develops and applies chemical tools to better understand biological questions that have an impact on improving global health, with a focus in underdeveloped communities. Gabriela is passionate about STEM education and believes that educators and entrepreneurs have the power to create learning experiences that can transform lives.</p>
+          <a href="blog/photos-gabys-fellowship-aavishkaar.html" class="card__link">View fellowship photos →</a>
+        </div>
+      </div>
+
+      <div class="fellow-card">
+        <img src="images/fellow-patti-murphy.jpg" alt="Patti Murphy" onerror="this.style.display='none'">
+        <div class="fellow-card__body">
+          <h3>Patti Murphy</h3>
+          <p class="fellow-meta">AST &nbsp;·&nbsp; Morocco &nbsp;·&nbsp; June – Dec 2021</p>
+          <p>Patti earned her B.S. in Biology at the Georgia Institute of Technology and completed her PhD in Neuroscience at the University of Pennsylvania in December 2020. As a graduate student, she used tissue engineering to build living scaffolds to regrow injured nerves and studied basic mechanisms of nerve regeneration in zebrafish. Alongside her graduate work, Patti led STEM and research workshops for K-12 students, including at the New York Academy of Sciences and the Franklin Institute Science Museum. She also created STEM outreach programs for students in Philadelphia Public Schools, including a neuroscience curriculum for early elementary students.</p>
         </div>
       </div>
 
@@ -172,51 +226,20 @@
       </div>
 
       <div class="fellow-card">
+        <img src="images/fellow-victor-sojo.png" alt="Victor Sojo" onerror="this.style.display='none'">
         <div class="fellow-card__body">
-          <h3>Matt Solt</h3>
-          <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; Sep – Dec 2020 &amp; July 2023</p>
-          <p>Matt is currently a postdoc at the University of Virginia in affiliation with three Department of Energy laboratories. He received his Ph.D. in physics from Stanford University and specializes in experimental particle astrophysics. Matt also obtained a dual degree in physics and mechanical engineering from Oakland University. He is passionate about spreading scientific literacy and believes that providing proper STEM education can help improve the lives of people in developing countries.</p>
+          <h3>Victor Sojo</h3>
+          <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &amp; Aavishkaar &nbsp;·&nbsp; India &nbsp;·&nbsp; Jul – Dec 2018</p>
+          <p>Victor is now a Scholar in bioinformatics and computational biology at the American Museum of Natural History in New York. Victor did his PhD in Evolutionary Biology at the University of London's University College (UCL). Before joining Science Corps as an Education-Advancement Special Fellow, Victor did postdoctoral research at RIKEN in Tokyo and at the University of Munich (LMU) in Germany. Victor has been teaching in one form or another ever since he was given the chance as an undergraduate. He is passionate about the power of education to build a more equal and inclusive world. He pursues this passion by building online education systems, including with our collaborators at CVIF.</p>
         </div>
       </div>
 
       <div class="fellow-card">
+        <img src="images/fellow-doug-shin.jpg" alt="Doug Shin" onerror="this.style.display='none'">
         <div class="fellow-card__body">
           <h3>Doug Shin</h3>
           <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; Jun – Dec 2019</p>
-          <p>Doug is currently preparing to apply for medical school. He received his PhD in Chemistry at the Massachusetts Institute of Technology (MIT). His backgrounds include nuclear magnetic resonance (NMR), laser spectroscopies, and photoacoustics of condensed matter. Doug is passionate about expanding scientific literacy for curious young minds with various socioeconomic backgrounds. He taught calculus-based Physics 1 and Chemistry 2 at CVIF.</p>
-        </div>
-      </div>
-
-      <div class="fellow-card">
-        <div class="fellow-card__body">
-          <h3>Patti Murphy</h3>
-          <p class="fellow-meta">AST &nbsp;·&nbsp; Morocco &nbsp;·&nbsp; June – Dec 2021</p>
-          <p>Patti earned her B.S. in Biology at the Georgia Institute of Technology and completed her PhD in Neuroscience at the University of Pennsylvania in December 2020. As a graduate student, she used tissue engineering to build living scaffolds to regrow injured nerves and studied basic mechanisms of nerve regeneration in zebrafish. She created STEM outreach programs for students in Philadelphia Public Schools, including a neuroscience curriculum for early elementary students.</p>
-        </div>
-      </div>
-
-      <div class="fellow-card">
-        <div class="fellow-card__body">
-          <h3>Tanvi Chheda</h3>
-          <p class="fellow-meta">CVIF &nbsp;·&nbsp; Philippines &nbsp;·&nbsp; Jan – June 2021</p>
-          <p>Tanvi is currently a Data Scientist at Meta. She finished her PhD in Geology, with a PhD minor in Management Science and Engineering at Stanford University. She taught Machine Learning applications and Earth Science as a Science Corps fellow. Tanvi believes that access to good science education can elevate living for many, and has mentored students who have secured positions in academic research and industry.</p>
-        </div>
-      </div>
-
-      <div class="fellow-card">
-        <div class="fellow-card__body">
-          <h3>Betsy Melenbrink</h3>
-          <p class="fellow-meta">Aavishkaar &nbsp;·&nbsp; India &nbsp;·&nbsp; Jul – Oct 2019</p>
-          <p>Betsy is currently an AAAS Science &amp; Technology Policy Fellow at the US State Department in the office of Science and Technology Cooperation. She holds a Ph.D. in Chemistry from the University of Southern California where she designed and made semiconducting plastics for use in flexible electronics. Betsy is passionate about energy, the environment, and building scientific capacity in developing countries.</p>
-        </div>
-      </div>
-
-      <div class="fellow-card">
-        <div class="fellow-card__body">
-          <h3>Gabriela Fernández-Cuervo</h3>
-          <p class="fellow-meta">Aavishkaar &nbsp;·&nbsp; India &nbsp;·&nbsp; Jan – Mar 2020</p>
-          <p>Gabriela is now an Intellectual Property Specialist at Advanced Clinical Pharmaceuticals. As a HHMI Gilliam Fellow, she obtained her PhD at the University of Arizona before moving to California to continue her career as a postdoctoral research fellow at Stanford University. As a scientist, Gabriela develops and applies chemical tools to better understand biological questions that have an impact on improving global health.</p>
-          <a href="blog/photos-gabys-fellowship-aavishkaar.html" class="card__link">View fellowship photos →</a>
+          <p>Doug is currently preparing to apply for medical school. He received his PhD in Chemistry at the Massachusetts Institute of Technology (MIT). His backgrounds include nuclear magnetic resonance (NMR), laser spectroscopies, and photoacoustics of condensed matter. Doug is passionate about expanding scientific literacy for curious young minds with various socioeconomic backgrounds, especially in underserved communities. Doug taught calculus-based Physics 1 and Chemistry 2 at CVIF.</p>
         </div>
       </div>
 
