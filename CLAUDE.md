@@ -7,7 +7,7 @@ This is a static HTML website for Science Corps (science-corps.org), a nonprofit
 - Pure HTML, CSS, JavaScript (no frameworks, no CMS)
 - Hosted on: GitHub Pages
 - Domain registrar: GoDaddy
-- Repo: https://github.com/pnayga/science-corps-website
+- Repo: https://github.com/brubin-web/science-corps-website
 
 ## File Structure
 - /index.html        → Home page
@@ -46,8 +46,8 @@ This is a static HTML website for Science Corps (science-corps.org), a nonprofit
 - Link: https://www.flipcause.com/secure/cause_pdetails/MjMyOTM4
 
 ## GitHub Pages Setup
-- Branch: main
-- GitHub Pages URL: https://pnayga.github.io/science-corps-website
+- Branch: master
+- GitHub Pages URL: https://brubin-web.github.io/science-corps-website
 - Custom domain: science-corps.org (configured via GoDaddy DNS)
 
 ## GoDaddy DNS Records (already configured or pending)
@@ -55,7 +55,7 @@ This is a static HTML website for Science Corps (science-corps.org), a nonprofit
 - Type A    @    185.199.109.153
 - Type A    @    185.199.110.153
 - Type A    @    185.199.111.153
-- Type CNAME  www  pnayga.github.io
+- Type CNAME  www  brubin-web.github.io
 
 ## Migration History
 - Original CMS: WordPress (retired due to malware/spam injection)

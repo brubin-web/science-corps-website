@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /donate-cards-backup.html
+
+Sitemap: https://science-corps.org/sitemap.xml

@@ -381,8 +381,10 @@ p { margin-bottom: 1em; }
 .fellow-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,.10); }
 .fellow-card img {
   width: 100%;
-  height: 220px;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+  object-position: center 25%;
+  background: var(--blue-light);
 }
 .fellow-card__body {
   padding: 24px;

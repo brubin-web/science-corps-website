@@ -1,12 +1,16 @@
 Live Site URLs
 ==============
 
-GitHub Pages (live site):
-  https://pnayga.github.io/science-corps-website/
+Live site (custom domain, GitHub Pages):
+  https://science-corps.org/
+  (www.science-corps.org redirects here)
+
+GitHub Pages fallback URL:
+  https://brubin-web.github.io/science-corps-website/
 
 GitHub Repository:
-  https://github.com/pnayga/science-corps-website
+  https://github.com/brubin-web/science-corps-website
 
-Note: Custom domain (science-corps.org) is not currently linked to GitHub Pages.
-To re-link it, add science-corps.org as the custom domain in:
-  GitHub repo → Settings → Pages → Custom domain
+DNS: nameservers at HostGator (ns8435/ns8436.hostgator.com); registrar GoDaddy.
+Google Search Console: verified via meta tag in index.html + google42331039c7852a48.html
+Sitemap: https://science-corps.org/sitemap.xml

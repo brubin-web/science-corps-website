@@ -74,19 +74,37 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  /* ── Contact form (client-side only, mailto fallback) ─ */
+  /* ── Contact form (submits to Web3Forms; stays on page) ─ */
   const form = document.getElementById('contact-form');
   if (form) {
+    const ok  = document.getElementById('form-success');
+    const btn = form.querySelector('button[type="submit"]');
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      const name    = document.getElementById('cf-name').value;
-      const email   = document.getElementById('cf-email').value;
-      const message = document.getElementById('cf-message').value;
-      const subject = encodeURIComponent('Message from ' + name + ' via Science Corps website');
-      const body    = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\nMessage:\n' + message);
-      window.location.href = 'mailto:fellows@science-corps.org?subject=' + subject + '&body=' + body;
-      const ok = document.getElementById('form-success');
-      if (ok) { ok.style.display = 'block'; form.reset(); }
+      const label = btn ? btn.textContent : '';
+      if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+      if (ok) ok.style.display = 'none';
+
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      })
+        .then(function (res) { return res.json(); })
+        .then(function (data) {
+          if (data.success) {
+            form.reset();
+            if (ok) ok.style.display = 'block';
+          } else {
+            window.alert('Sorry, your message could not be sent. Please email us directly at fellows@science-corps.org.');
+          }
+        })
+        .catch(function () {
+          window.alert('Sorry, your message could not be sent. Please email us directly at fellows@science-corps.org.');
+        })
+        .finally(function () {
+          if (btn) { btn.disabled = false; btn.textContent = label; }
+        });
     });
   }
 
